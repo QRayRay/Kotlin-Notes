@@ -25,6 +25,16 @@ println("You are too young")
 //return the value for this block
      age
  }
+
+class A {
+public static int returnMe() { return 5; } // Java
+}
+
+class A {
+companion object {
+fun a() : Int = 5 // Kotlin
+}
+}
 //print the age for the passing condition
 print("current age is $currentAge")
 fun main(){
